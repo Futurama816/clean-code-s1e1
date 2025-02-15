@@ -3,18 +3,22 @@
 
   <HEAD>
     <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet">
     <link rel="stylesheet"
-     href="style.css" 
-     MEDIA="screen"
-     charset="utf-8">
+      href="style.css" 
+      MEDIA="screen"
+      charset="utf-8">
   </HEAD>
 
-  <body>
+  <body id="page">
 
-    <div class="aaa">
+    <div class="e-matrix">
       <img src="./eisenhower-matrix.jpg">
-      <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details;</a>
+      <a class="more_inf"
+        href="https://goal-life.com/page/method/matrix-eisenhower">
+        Want more details;
+      </a>
     </div>
 
     <div class="centered-main-page-element">
@@ -30,7 +34,7 @@
 
       <h3>Todo</h3>
 
-      <ul id="incompleteTasks">
+      <ul class="tasks" id="incompleteTasks">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -54,7 +58,7 @@
         
       <h3>Completed</h3>
 
-      <ul id="completed-tasks">
+      <ul class="tasks" id="completed-tasks">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
